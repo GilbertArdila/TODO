@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Grape Nuts',
+    cursive;
+    background: linear-gradient(42deg, rgba(123, 31, 162, 1) 0%, rgba(146, 185, 218, 1) 66%, rgba(237, 83, 234, 1) 86%);
+   
+}
+li{
+    list-style: none;
+}
+main{
+    width: 100%;
+    max-width: 768px;
+    height:auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+}
+.todo-title{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin:  0 auto;
+    margin-top: 20px;
+}
+.todo-title img{
+    width: 100px;
+    height: 100px;
+}
+.todo-title__text{
+   font-family: 'Rubik Moonrocks', cursive;
+   font-size: 2rem;
+   line-height: 2.4rem;
+}
+.section-form{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.task{
+    margin-bottom: 20px;
+}
+.task-button{
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+.new-task-list{
+    width: 100%;
+
+}
+.task-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+.check-icon-img{
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/epic-outlines/30/660993-check_button-128.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cheched-icon-img{
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn2.iconfinder.com/data/icons/flat-icons-web/40/OK-128.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.delete-icon-img{
+    width: 20px;
+    height: 20px;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-trash-b-128.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.delete-icon-img:hover{
+    background-image: url('https://cdn3.iconfinder.com/data/icons/social-messaging-ui-color-line/254000/82-128.png');
+}
+.deleted-icon-img{
+   
+}
